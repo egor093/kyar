@@ -1,0 +1,46 @@
+nav {
+    background-image: linear-gradient(rgb(255, 251, 0), rgb(255, 252, 47));
+    height: 50px;
+    width: 300px;
+}
+
+#MenuIcon {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    background-image: linear-gradient(rgb(242, 157, 100),rgb(248, 172, 86));
+    width: fit-content;
+    padding: 5px;
+    border-radius: 0px 0px 20px 0px;
+    display: none;
+}
+
+nav:hover ul{
+    display:block;
+}
+
+ul li {
+    border: 4px dotted brown;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 1px;
+}
+
+ul li:last-child {
+    border-radius: 0px 0px 20px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}

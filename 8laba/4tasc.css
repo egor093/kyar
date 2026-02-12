@@ -1,0 +1,54 @@
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    background: url(./img/facultet.png) no-repeat;
+    margin-right: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    border: black 1px solid;
+    height: 30px;
+    background-size: 32px;
+    position: relative;
+}
+
+.submenu ul {
+    display: none;
+    position: absolute;
+
+}
+
+#fit:hover {
+    background-position-y: -32px;
+    background-color: crimson;
+}
+
+#fit:hover ul {
+    display: block;
+}
+
+#fit:hover .kafedra li {
+    background-image: none;
+    margin-left: -40px;
+}
+
+#pim:hover {
+    background-position-y: -96px;
+    background-color: dodgerblue;
+    color: yellow;
+}
+
+#htit:hover {
+    background-position-y: -64px;
+    background-color: forestgreen;
+    color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

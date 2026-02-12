@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    display: block;
+    width: 900px;
+}
+aside {
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+    width: 20%;
+    padding: 20px;
+    color: red;
+}
+ul.nav {list-style-type: none;}
+a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: red;
+}
+ul.nav a:link{
+    color:  red;
+}
+ul.nav a:visited{
+    color:  #8b0000;
+}
+ul.nav a:hover{
+    color:  green;
+}
+ul.nav a:active{
+    color:  rgb(184, 134, 11);
+}
+main {
+    margin-top: -200px;
+    float: left;
+    width: 80%;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+.grid {
+    display:grid;
+   grid-template-columns:4% 23% 23%;
+   grid-template-rows:600px 20px 20px;
+   grid-gap: 5px;
+   text-align: center;
+   }    
+.grid div{
+    border: 1px black solid;
+   }
+
+   .box {
+   display:grid;
+   grid-template-columns:23% 23% 4%;
+   grid-template-rows:600px 20px 20px;
+   grid-gap: 5px;
+   text-align: center;
+   }
+.box div{
+    border: 1px black solid;
+   }
