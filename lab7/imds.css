@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+.q{
+    transform: rotateX(60deg);
+}
+.w{
+    transform: rotateY(-60deg);
+}
+.e{
+    transform: rotateY(60deg);
+}

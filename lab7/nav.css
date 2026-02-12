@@ -1,0 +1,31 @@
+ul {
+    background-color: cadetblue;
+    margin: -8px;
+    height: 50px;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: cadetblue;
+}
+
+ul li:hover {
+    transform: translate(0px, 2px);
+    box-shadow: black 0px 0px 5px;
+}
+
+li a {
+    display: inline-block;
+    margin-left: 0px;
+    font-weight: bold;
+    color: rgb(5, 104, 104);
+    margin-top: 10px;
+    text-decoration: none;
+}
+        

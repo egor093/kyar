@@ -1,0 +1,20 @@
+h1
+{
+    text-align: center;
+    opacity: 0; 
+    animation: changeContent 5s linear alternate infinite;
+}
+@keyframes changeContent {
+    0% {
+        color: #000000; 
+        opacity: 0; 
+    }
+    50% {
+        color: #61ca8d; 
+        opacity: 0.8; 
+    }
+    100% {
+        color: #000000; 
+        opacity: 0; 
+    }
+}

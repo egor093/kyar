@@ -1,0 +1,15 @@
+.first{
+    transform: scale(0.5);
+}
+.second{
+    transform: rotate(45deg);
+}
+.thrid{
+    transform: translate(50px,0);
+}
+.last{
+    transition: 1s;
+}
+.last:hover{
+    transform: rotate(-20deg);
+}

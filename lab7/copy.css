@@ -1,0 +1,109 @@
+.image-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 250px; 
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border: 5px dashed #914736; 
+}
+
+.image {
+    width: 40px; 
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/images\ \(1\).png);
+    position: absolute;
+}
+
+.copy1 {
+    left: 0;
+    animation: moveHorizontal1 5s linear infinite; 
+}
+
+.copy2 {
+    animation: changeShape 5s linear infinite;
+}
+
+.copy3 {
+    left: -50px;
+    animation: moveInFromLeft 5s linear infinite; 
+}
+
+.copy4 {
+    top: 0;
+    animation: moveVertical 5s linear infinite; 
+}
+
+.copy5 {
+    animation: moveSquare 10s linear infinite; 
+}
+
+@keyframes moveHorizontal1 {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100%{
+        left:0;
+    }
+}
+
+@keyframes changeShape {
+    0% {
+        transform: scale(1); top: 0;
+    }
+    50% {
+        transform: scale(0.5); top: 200px;
+    }
+    100% {
+        transform: scale(1); top: 0;
+    }
+}
+
+@keyframes moveInFromLeft {
+    0% {
+        left: -50px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes moveVertical {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 50px;
+    }
+    100%{
+        top:0;
+    }
+}
+
+@keyframes moveSquare {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 200px;
+        top: 0;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}

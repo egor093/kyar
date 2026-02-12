@@ -1,0 +1,39 @@
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.q{
+    transition: 1s;
+}
+.q:hover{
+    background-color: black;
+    color: white;
+}
+.w{
+    transition: 1s;
+}
+.w:hover{
+    border: red 5px solid;
+    outline: 5px yellow solid;
+}
+.e{
+    transition: 1s;
+}
+.e:hover{
+    border-top: green solid 5px;
+    border-bottom: green solid 5px;
+}
+.r{
+    transition: 1s;
+}
+.r:hover{
+    border-left: blue solid 5px;
+    border-right: blue solid 5px;
+}
+.t{
+    transition: 1s; 
+}
+.t:hover{
+    background-image: radial-gradient(yellow,pink,rgb(0, 191, 255));
+}

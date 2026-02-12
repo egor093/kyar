@@ -1,0 +1,131 @@
+.image-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 250px; /* Задайте ширину и высоту соответствующего размера */
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border: 5px dashed #914736; /* Произвольный цвет границы */
+}
+
+.image {
+    width: 55px; /* Размеры копий изображения */
+    height: 55px;
+    background-image: url('ponu.png'); /* Путь к изображению */
+    position: absolute;
+}
+
+.copy1 {
+    left: 0;
+    animation: moveHorizontal1 5s linear infinite; /*Непрерывное перемещение по горизонтали на 200px*/
+}
+
+.copy2 {
+    animation: changeShape 5s linear infinite; /* Непрерывное изменение формы */
+}
+
+.copy3 {
+    left: -50px;
+    animation: moveInFromLeft 5s linear infinite; /* Появление слева и скрытие справа за экраном */
+}
+
+.copy4 {
+    top: 0;
+    animation: moveVertical 5s linear infinite; /* Непрерывное перемещение по вертикали вниз на 50px */
+}
+
+.copy5 {
+    animation: moveSquare 10s linear infinite; /* Непрерывное перемещение по траектории квадрата */
+}
+
+@keyframes moveHorizontal1 {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100%{
+        left:0;
+    }
+}
+
+@keyframes changeShape {
+    0% {
+        transform: scale(1); top: 0;
+    }
+    50% {
+        transform: scale(0.5); top: 200px;
+    }
+    100% {
+        transform: scale(1); top: 0;
+    }
+}
+
+@keyframes moveInFromLeft {
+    0% {
+        left: -50px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes moveVertical {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 50px;
+    }
+    100%{
+        top:0;
+    }
+}
+
+@keyframes moveSquare {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 200px;
+        top: 0;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+h1
+
+{
+    text-align: center;
+    opacity: 0; /* Начальная непрозрачность */
+    animation: changeContent 5s linear alternate infinite;
+}
+@keyframes changeContent {
+    0% {
+        color: #000000; /* Начальный цвет текста */
+        opacity: 0; /* Начальная непрозрачность */
+    }
+    50% {
+        color: #61ca8d; /* Произвольный промежуточный цвет текста */
+        opacity: 0.8; /* Прозрачность 80% */
+    }
+    100% {
+        color: #000000; /* Конечный цвет текста */
+        opacity: 0; /* Начальная непрозрачность */
+    }
+}

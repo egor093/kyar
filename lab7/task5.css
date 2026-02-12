@@ -1,0 +1,107 @@
+img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+}
+@keyframes one{
+    0%{
+        z-index: 1;
+    }
+    25%{
+        z-index: 0;
+    }
+    50%{
+        z-index: 0;
+    }
+    75%{
+        z-index: 0;
+    }
+    100%{
+        z-index: 0;
+    }
+} 
+.one{
+    animation: one 5s linear infinite ;
+    }
+
+@keyframes two{
+    0%{
+        z-index: 0;
+    }
+    25%{
+        z-index: 1;
+    }
+    50%{
+        z-index: 0;
+    }
+    75%{
+        z-index: 0;
+    }
+    100%{
+        z-index: 0;
+    }
+} 
+.two{
+    animation: two 5s linear infinite ;
+    }
+@keyframes three{
+    0%{
+        z-index: 0;
+    }
+    25%{
+        z-index: 0;
+    }
+    50%{
+        z-index: 1;
+    }
+    75%{
+        z-index: 0;
+    }
+    100%{
+        z-index: 0;
+    }
+} 
+.three{
+    animation: three 5s linear infinite ;
+    }
+@keyframes four{
+    0%{
+        z-index: 0;
+    }
+    25%{
+        z-index: 0;
+    }
+    50%{
+        z-index: 0;
+    }
+    75%{
+        z-index: 1;
+    }
+    100%{
+        z-index: 0;
+    }
+} 
+.four{
+    animation: four 5s linear infinite ;
+    }
+@keyframes five{
+    0%{
+        z-index: 0;
+    }
+    25%{
+        z-index: 0;
+    }
+    50%{
+        z-index: 0;
+    }
+    75%{
+        z-index: 0;
+    }
+    100%{
+        z-index: 1;
+    }
+} 
+.five{
+    animation: five 5s linear infinite;
+    }
