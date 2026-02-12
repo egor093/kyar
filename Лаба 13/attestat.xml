@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Иванов Иван</name>
+        <subject>Математика</subject>
+        <grade>3</grade>
+    </student>
+    <student>
+        <name>Петров Петр</name>
+        <subject>Физика</subject>
+        <grade>9</grade>
+    </student>
+    <student>
+        <name>Сидоров Сергей</name>
+        <subject>Химия</subject>
+        <grade>5</grade>
+    </student>
+    <student>
+        <name>Кузнецова Анна</name>
+        <subject>Биология</subject>
+        <grade>8</grade>
+    </student>
+    <student>
+        <name>Михайлова Ольга</name>
+        <subject>История</subject>
+        <grade>10</grade>
+    </student>
+</students>

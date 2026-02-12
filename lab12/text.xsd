@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="stylesheet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="template" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="copy">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="apply-templates" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element name="sort" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="select"
+                                                                use="required" />
+                                                            <xs:attribute name="data-type"
+                                                                use="required" />
+                                                            <xs:attribute name="order"
+                                                                use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="select" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="match" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="version" type="xs:decimal" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

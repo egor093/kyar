@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<store>
+    <product>
+        <name>Смартфон</name>
+        <category>Категория: Электроника</category>
+        <price>Цена 39999</price>
+        <availability>В наличии</availability>
+    </product>
+    <product>
+        <name>Ноутбук</name>
+        <category>Категория: Электроника</category>
+        <price>Цена 59999</price>
+        <availability>Нет в наличии</availability>
+    </product>
+    <product>
+        <name>Наушники</name>
+        <category>Категория: Аксессуары</category>
+        <price>Цена 2999</price>
+        <availability>В наличии</availability>
+    </product>
+    <product>
+        <name>Смарт-часы</name>
+        <category>Категория: Гаджеты</category>
+        <price>Цена 19999</price>
+        <availability>В наличии</availability>
+    </product>
+    <product>
+        <name>Игровая консоль PS5</name>
+        <category>Категория: Развлечения</category>
+        <price>Цена 49999</price>
+        <availability>Нет в наличии</availability>
+    </product>
+</store>

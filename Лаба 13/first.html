@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Товары интернет-магазина</title>
+      <style>
+                    /* Общие стили для всего документа */
+                    store {
+                        display: block;
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                        padding: 10px;
+                        border: 1px solid #ddd;
+                        background-color: #f9f9f9;
+                    }
+
+                    /* Стиль для каждого продукта */
+                    product {
+                        display: block;
+                        margin: 10px 0;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    }
+
+                    /* Стили для дочерних элементов */
+                    name {
+                        display: block;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #333;
+                        margin-bottom: 5px;
+                    }
+
+                    category {
+                        display: block;
+                        font-size: 14px;
+                        color: #666;
+                        margin-bottom: 5px;
+                    }
+
+                    price {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #1a73e8;
+                        margin-bottom: 5px;
+                    }
+
+                    availability {
+                        display: block;
+                        font-size: 14px;
+                        padding: 5px;
+                        border-radius: 3px;
+                        text-align: center;
+                        width: fit-content;
+                    }
+
+                    /* Цвет для статуса наличия */
+                    availability:contains("В наличии") {
+                        background-color: #c8e6c9;
+                        color: #2e7d32;
+                        border: 1px solid #2e7d32;
+                    }
+
+                    availability:contains("Нет в наличии") {
+                        background-color: #ffcdd2;
+                        color: #c62828;
+                        border: 1px solid #c62828;
+                    }
+                                        th, td {
+                        border: 1px solid #ddd;
+                        padding: 8px;                        text-align: center;
+                    }
+                </style>
+   </head>
+   <body>
+      <h1 style="text-align: center;">Товары интернет-магазина</h1>
+      <table>
+         <tr>
+            <th>Название</th>
+            <th>Категория</th>
+            <th>Цена (₽)</th>
+            <th>Наличие</th>
+         </tr> 
+                 <tr>
+            <td>
+               <name>Ноутбук</name>
+            </td>
+            <td>
+               <category>Электроника</category>
+            </td>
+            <td>
+               <price>59999</price>
+            </td>
+            <td>
+               <availability>Нет в наличии</availability>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <name>Смартфон</name>
+            </td>
+            <td>
+               <category>Электроника</category>
+            </td>
+            <td>
+               <price>49999</price>
+            </td>
+            <td>
+               <availability>В наличии</availability>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <name>Игровая консоль</name>
+            </td>
+            <td>
+               <category>Развлечения</category>
+            </td>
+            <td>
+               <price>39999</price>
+            </td>
+            <td>
+               <availability>Нет в наличии</availability>
+            </td>
+         </tr> 
+                 <tr>
+            <td>
+               <name>Смарт-часы</name>
+            </td>
+            <td>
+               <category>Гаджеты</category>
+            </td>
+            <td>
+               <price>19999</price>
+            </td>
+            <td>
+               <availability>В наличии</availability>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <name>Наушники</name>
+            </td>
+            <td>
+               <category>Аксессуары</category>
+            </td>
+            <td>
+               <price>2999</price>
+            </td>
+            <td>
+               <availability>В наличии</availability>
+            </td>
+         </tr>
+
+
+      </table>
+   </body>
+</html>

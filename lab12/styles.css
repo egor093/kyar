@@ -1,0 +1,44 @@
+store {
+    display: block;
+    margin: 20px;
+}
+
+product {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+category {
+    display: block;
+    font-size: 14px;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+price {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 5px;
+}
+
+availability {
+    display: block;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+    width: fit-content;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<!DOCTYPE store [
+    <!-- Объявление сущностей -->
+    <!ENTITY inStock "В наличии">
+    <!ENTITY outOfStock "Нет в наличии">
+    <!ENTITY electronics "Электроника">
+    <!ENTITY accessories "Аксессуары">
+    <!ENTITY gadgets "Гаджеты">
+    <!ENTITY entertainment "Развлечения">
+
+    <!-- Объявление элементов -->
+    <!ELEMENT store (product+)>
+    <!ELEMENT product (name, category, price, availability)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT category (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT availability (#PCDATA)>
+]>
+<store>
+    <product>
+        <name>Смартфон</name>
+        <category>&electronics;</category>
+        <price>39999</price>
+        <availability>&inStock;</availability>
+    </product>
+    <product>
+        <name>Ноутбук</name>
+        <category>&electronics;</category>
+        <price>59999</price>
+        <availability>&outOfStock;</availability>
+    </product>
+    <product>
+        <name>Наушники</name>
+        <category>&accessories;</category>
+        <price>2999</price>
+        <availability>&inStock;</availability>
+    </product>
+    <product>
+        <name>Смарт-часы</name>
+        <category>&gadgets;</category>
+        <price>19999</price>
+        <availability>&inStock;</availability>
+    </product>
+    <product>
+        <name>Игровая консоль</name>
+        <category>&entertainment;</category>
+        <price>49999</price>
+        <availability>&outOfStock;</availability>
+    </product>
+</store>
